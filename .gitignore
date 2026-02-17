@@ -1,0 +1,39 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# ======================
+# Node / React
+# ======================
+node_modules/
+build/
+dist/
+
+# ======================
+# ML Models (IMPORTANT)
+# ======================
+*.pt
+*.pth
+*.onnx
+
+# ======================
+# Mac
+# ======================
+.DS_Store
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/

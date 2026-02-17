@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+/* ---------UTILITIES------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-primary: #2c3e50;
+  --theme-secondary: #34495e;
+  --accent-color-1: #3498db;
+  --accent-color-2: #e74c3c;
+  --text-primary: #2c3e50;
+  --text-secondary: #ecf0f1;
+}
+body {
+  background-image: url('./concrete-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h1 {
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 11vw;
+  font-weight: 900;
+  color: var(--text-secondary);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+h2 {
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-stretch: condensed;
+  font-size: 6.5vw;
+  line-height: 0px;
+  color: var(--text-secondary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+h3 {
+  margin-top: 5rem;
+  font-size: 3.3vw;
+  color: white;
+  padding: 20px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.85);
+}
+a {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+a:hover {
+  cursor: pointer;
+  color: var(--accent-color-1);
+}
+nav li {
+  margin: 0 10px;
+  font-size: 1.1rem;
+  list-style-type: none;
+}
+button {
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding: 6px;
+  border-radius: 5px;
+  border: 2px solid var(--accent-color-1);
+  padding: 10px 20px;
+  background-color: var(--accent-color-1);
+  color: white;
+  transition: all 0.3s ease;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #2980b9;
+  border-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.flexX {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flexY {
+  display: flex;
+  flex-direction: column;
+}
+/* ---------HEADER--------------- */
+header {
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* background-color: blanchedalmond; */
+  /* box-shadow: 1px 1px 14px rgba(88, 88, 88, 0.334); */
+  width: 100vw;
+}
+nav {
+  position: fixed;
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+  background-color: rgba(44, 62, 80, 0.95);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  float: right;
+  padding: 1.3rem;
+}
+nav li:hover {
+  font-weight: 500;
+  cursor: pointer;
+}
+nav a:hover,
+a.active {
+  color: var(--accent-color-1);
+}
+nav a:hover::before,
+nav a.active::before {
+  content: "....";
+  text-decoration: solid underline var(--accent-color-1) 3px;
+  position: absolute;
+  color: transparent;
+  text-underline-offset: 5px;
+}
+.signup {
+  padding: 5px 10px;
+}
+.home_page {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+#main-text {
+  padding: 3rem 0rem;
+  background-color: rgba(44, 62, 80, 0.85);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  text-align: center;
+  top: 70px;
+  border-top: 3px solid var(--accent-color-1);
+  border-bottom: 3px solid var(--accent-color-1);
+}
+
+.footer {
+  height: 100vh;
+}
+.file {
+  margin: 10px;
+  color: aliceblue;
+  border-radius: 12px;
+  font-weight: 900;
+}
+.page {
+  margin-top: 3rem;
+  padding: 1rem 0;
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+  background-color: rgba(44, 62, 80, 0.92);
+  backdrop-filter: blur(10px);
+  background-size: contain;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+.comp {
+  text-align: center;
+}
+.web {
+  border: 2px solid var(--accent-color-1);
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
+  border-radius: 8px;
+}
+.space {
+  margin: 100px;
+  height: 10vh;
+}
+.bullets {
+  list-style-type: disc;
+  font-size: 1rem;
+  color: var(--accent-color-1);
+}
+.imag {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  border: 2px solid var(--accent-color-1);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
+  margin: 20px auto;
+}
+footer {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: rgba(44, 62, 80, 0.95);
+  backdrop-filter: blur(10px);
+  color: var(--text-secondary);
+  border-top: 3px solid var(--accent-color-1);
+}
+@keyframes rotate {
+  from {
+    transform: rotateY(150deg);
+  }
+  to {
+    transform: rotateY(400deg);
+  }
+}
