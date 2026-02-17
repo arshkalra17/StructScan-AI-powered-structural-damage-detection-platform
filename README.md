@@ -80,7 +80,7 @@ StructScan/
 │   ├── App.js             # Main app
 │   └── App.css            # Styling
 ├── public/                # Static assets
-├── InfraSafe_ML/          # ML model and test data
+├── StructScan_ML/         # ML model and test data
 ├── server.py              # Flask backend
 └── package.json           # Dependencies
 ```

@@ -262,7 +262,7 @@ npm start
 - Backend Test: http://localhost:5001/test
 
 ### Test Images
-Located in: `InfraSafe_ML/test/`
+Located in: `StructScan_ML/test/`
 - crack_108_jpg.rf.197a1551e12f268769b37cdc0d1db517.jpg
 - crack_158_jpg.rf.090b85f3be2e9043dcc91d5115c9455d.jpg
 - crack_170_jpg.rf.63f3db3ab3c16d5dd5628c4b15eba00e.jpg

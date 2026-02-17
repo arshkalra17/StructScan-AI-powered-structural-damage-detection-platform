@@ -669,7 +669,7 @@ StructScan/
 │       ├── Live.jsx            # Real-time detection
 │       └── Footer.jsx          # Contact information
 │
-├── 📁 InfraSafe_ML/            # ML training and testing
+├── 📁 StructScan_ML/           # ML training and testing
 │   ├── FINAL_OUTPUT.ipynb      # Final predictions notebook
 │   ├── YolovInfrastructure.ipynb # Model training notebook
 │   ├── yolov8_trained_model.pt # Model copy
