@@ -120,5 +120,6 @@ Render: React receives the JSON response and displays the base64 image to the us
 
 ```
 
-Developed by ### Arsh Kalra 
+Developed by
+### Arsh Kalra 
 Last Updated: February 17, 2026
