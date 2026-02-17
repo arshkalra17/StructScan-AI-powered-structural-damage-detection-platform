@@ -80,7 +80,7 @@ pip install flask flask-cors opencv-python numpy ultralytics torch torchvision
 python server.py
 ```
 
-##Frontend Setup
+## Frontend Setup
 ```bash
 # Install NPM packages
 npm install
@@ -120,5 +120,5 @@ Render: React receives the JSON response and displays the base64 image to the us
 
 ```
 
-Developed by ###Arsh Kalra 
+Developed by ### Arsh Kalra 
 Last Updated: February 17, 2026
