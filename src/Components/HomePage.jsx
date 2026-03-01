@@ -9,7 +9,7 @@ export default function HomePage() {
   };
 
   return (
-    <div>
+    <div id="home">
       <section className="home_page">
         <div id="main-text">
           <h1>STRUCTSCAN</h1>

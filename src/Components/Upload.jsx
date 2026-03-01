@@ -71,7 +71,7 @@ const Upload = () => {
   };
 
   return (
-    <div>
+    <div id="demo">
       <div className="page">
         <h3 className="text-xl font-bold mb-2">Upload Image</h3>
         
