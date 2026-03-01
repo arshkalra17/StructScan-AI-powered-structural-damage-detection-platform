@@ -3,9 +3,9 @@
 
 **StructScan** is a professional-grade web application designed to automate the inspection of infrastructure for cracks and damage. By combining **Computer Vision (YOLOv8)** with a modern **React-Flask architecture**, it provides instant, documented analysis for both uploaded images and live camera feeds.
 
-![Uploading imagedetection.png…]()
-![Uploading livedetection.png…]()
 
+![Image_Detection](images_for_readme/imagedetection.png)
+![Live_Detection](images_for_readme/livedetection.png)
 
 
 ---
